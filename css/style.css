@@ -84,7 +84,9 @@ padding-left: 20px;
 }
 
 
-#catálogo  nav, #camisas  nav{
+#catálogo  nav, #camisas  nav,
+#chaquetas  nav, #zapatos  nav,
+#pantalones   nav{
     display: flex;
     justify-content: center;
     gap: 24px; /* espacio entre links */
@@ -172,7 +174,9 @@ nav a.active {
 	margin-bottom: 5px
 }
 
-#catálogo h2, #camisas h2{
+#catálogo h2, #camisas h2,
+#chaquetas h2, #zapatos h2,
+#pantalones h2{
 	font-family: 'DM Serif Display', serif;
 	font-size: 30px;
 	margin-bottom: 5px;
