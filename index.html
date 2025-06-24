@@ -1,143 +1,249 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Examen II</title>
-<link href="css/framework7.bundle.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examen II</title>
+  <link href="css/framework7.bundle.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 </head>
-
 <body>
-	
-	<div id="app">
-			
-<div class="view view-main view-init">
-        			
-			<section class="panel panel-left panel-cover">
-			
-				  <div id="panel-user" class="block text-center">
-                  <i class="material-icons user-icon">person</i>
-                  <div class="user-links">
-                   <a href="login.html" class="link external user-link">Iniciar Sesión</a><br>
-                   <a href="register.html" class="link external user-link">Registrarse</a>
+  <div id="app">
+    <div class="view view-main view-init">
+      <section class="panel panel-left panel-cover">
+        <div id="panel-user" class="block text-center">
+          <i class="material-icons user-icon">person</i>
+          <div class="user-links">
+            <a class="link external" href="Perfil.html" style="color:#f8f8f8" >Iniciar Sesión</a><br>
+           <a class="link external" href="Perfil.html" style="color:#f8f8f8">Registrarse</a>
+          </div>
+        </div>
+        <div id="panel-menu" class="block">
+          <div class="list media-list">
+            <ul>
+              <li>
+               <a href="Catálogo.html" class="link external item-link item-content panel-close">
+                  <div class="item-media">
+                    <i class="material-icons">home</i>
                   </div>
-                   </div>
-			
-				<div id="panel-menu" class="block">
-				
-					<div class="list media-list">
-						<ul>
-							<li>
-								<a class="link external" href="index.html" class="item-link item-content panel-close">
-									<div class="item-media">
-										<i class="material-icons">home</i>
-									</div>	
-									<div class="item-inner">
-										<div class="item-title">Inicio</div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a class="link external" href="Menu.html" class="item-link item-content panel-close">
-									<div class="item-media">
-										<i class="material-icons">local_mall</i>
-									</div>	
-									<div class="item-inner">
-										<div class="item-title">Catálogo</div>
-									</div>
-								</a>
-							</li>						
-							<li>
-								<a href="/collections/" class="item-link item-content panel-close">
-									<div class="item-media">
-										<i class="material-icons">shopping_cart</i>
-									</div>	
-									<div class="item-inner">
-										<div class="item-title">Carrito</div>
-									</div>
-								</a>
-							</li>
+                  <div class="item-inner">
+                    <div class="item-title">Inicio</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+               <a href="Catálogo.html" class="link external item-link item-content panel-close">
+                  <div class="item-media">
+                    <i class="material-icons">local_mall</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title">Catálogo</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/collections/" class="item-link item-content panel-close">
+                  <div class="item-media">
+                    <i class="material-icons">shopping_cart</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title">Carrito</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="SobreNosotros.html" class="link external item-link item-content panel-close">
+                  <div class="item-media">
+                    <i class="material-icons">diversity_3</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title">Sobre Nosotros</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="item-link item-content panel-close">
+                  <div class="item-media">
+                    <i class="material-icons">settings</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title">Configuración</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-							<li>
-								<a class="link external" href="SobreNosotros.html" class="item-link item-content panel-close">
-									<div class="item-media">
-										<i class="material-icons">diversity_3</i>
-									</div>	
-									<div class="item-inner">
-										<div class="item-title">Sobre Nosotros</div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="item-link item-content panel-close">
-									<div class="item-media">
-										<i class="material-icons">settings</i>
-									</div>	
-									<div class="item-inner">
-										<div class="item-title">Configuración</div>
-									</div>
-								</a>
-							</li>
-						</ul>				
-					</div>
-				
-				</div>				
-				
-			</section>
-			
-			<section data-name="home" class="page">
+      <section data-name="home" class="page">
+        <!-- Top Navbar -->
+        <nav class="navbar">
+          <div class="navbar-bg"></div>
+          <div class="navbar-inner">
+            <div class="row">
+              <article class="col-30">
+                <img src="img/logo_2.png" alt="logo" class="img-fluid" style="width: 100%" />
+              </article>
+            </div>
+            <div class="right">
+              <a href="#" class="link panel-open" data-panel="left">
+                <i class="material-icons">menu</i>
+              </a>
+            </div>
+          </div>
+        </nav>
 
-			  <!-- Top Navbar -->
-			  <nav class="navbar">
-				<div class="navbar-bg"></div>
-				<div class="navbar-inner">
-					<div class="row">
-						<article class="col-30">
-							<img src="img/logo_2.png" alt="logo" class="img-fluid">
-						</article>
-												
-					</div>
+        <!-- CONTENIDO DE LA PÁGINA -->
+        <div class="page-content">
+          <!-- BANNER -->
+          <div id="banner" class="block text-align-center">
+            <img src="img/foto_1.png" alt="Banner Promocional" class="img-fluid" style="width: 100%; border-radius: 8px" />
+            <div class="banner-text">
+              <h2>¡Bienvenido a nuestra tienda!</h2>
+              <p>Descubre nuestras promociones exclusivas de temporada.</p>
+              <a href="Menu.html" class="button button-fill" style="background-color: #2D7DBF; color: #f8f8f8">Ver Catálogo</a>
+            </div>
+          </div>
 
-					<div class="right">
-						<a href="#" class="link panel-open" data-panel="left">
-							<i class="material-icons">menu</i>
-						</a>
-					</div>
-				</div>
-			  </nav>
+          <!-- OFERTAS -->
+          <div id="Ofertas">
+            <h2 class="block text-align-center">Promoción Especial de Junio</h2>
+            <div class="block text-align-center">
+              <h4 class="block-title">
+                ¡Ofertas del 50% en ropa inspirada en la comunidad LGBTQ+ durante todo junio!
+              </h4>
+            </div>
 
-			  <section class="page-content">
-				  
-				  
-				  <div class="block banner text-align-center">
-  <img src="img/foto_1.png" alt="Banner Promocional" class="img-fluid" style="width:100%; border-radius: 8px;">
-  <div class="banner-text">
-    <h2>¡Bienvenido a nuestra tienda!</h2>
-    <p>Descubre nuestras promociones exclusivas de temporada.</p>
-    <a href="Menu.html" class="button button-fill color-blue">Ver Catálogo</a>
+            <!-- Swiper Container -->
+            <div class="swiper-container swiper-init" data-space-between="10" data-slides-per-view="auto">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/oferta_1.jpg" alt="Sudadera arcoíris" style="width: 100%; height: auto; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Sudadera Corta con Capucha <br>con Decoración Arcoíris
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/oferta_3.jpg" alt="Falda Trans" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Falda con Colores de la Bandera Trans,<br>
+                    de Tela Dracon
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/oferta_6.jpeg" alt="Botines Orgullo" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Botines Decorados con Diseño Inspirado <br>
+                    en el Orgullo LGBTQ+
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/oferta_4.jpg" alt="Vestido Lésbico" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Vestido Floral Inspirado en los Colores <br>
+                    de la Bandera Lésbica
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/oferta_5.jpg" alt="Zapatillas Arcoíris" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Zapatillas Negras con Diseño de <br>
+                    Arcoíris en los Costados
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TENDENCIAS -->
+          <div id="Tendencias" class="block text-align-center">
+            <h2>Tendencias</h2>
+            <h4 class="block-title">
+              ¡Las prendas más populares de la semana que no te puedes perder!
+            </h4>
+
+            <!-- Swiper Container -->
+            <div class="swiper-container swiper-init" data-space-between="10" data-slides-per-view="auto">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/Tendencias_1.jpg" alt="Sudadera arcoíris" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Blusa de un Tirante con Manga Princesa
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/Tendencias_3.jpg" alt="Falda Trans" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                    Pantalón Cargo Negro – Estilo Urbano y Comodidad Total
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/Tendencias_4.jpg" alt="Botines Orgullo" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                   Costura De Bolsillos De Tela Escocesa Nudo Pantalones
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/Tendencias_5.jpg" alt="Vestido Lésbico" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                   Chaquetas de otoño para mujer con estilo y confort
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="width: 300px;">
+                  <img src="img/Tendencias_2.jpg" alt="Zapatillas Arcoíris" style="width: 100%; height: 400px; border-radius: 8px" />
+                  <h5 class="text-align-center">
+                   Blusa Femenina con Estampado de Flores y Los Hombros al Descubierto
+                  </h5>
+                  <div class="text-align-center">
+                    <a href="#" class="button button-round" style="background-color: #0B62A9; color: #f8f8f8">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-</div>
-				  
-				  
-			  </section> <!--/page-content -->
 
-			</section> <!--/page -->
-		</div><!--/view -->
-		
-		
-		
-	</div><!--/app -->
-	
-	
-	<script src="js/framework7.bundle.min.js"></script>
-	<script src="js/app.js"></script>
-	
-	
-	
-	
-	
+  <script src="js/framework7.bundle.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
