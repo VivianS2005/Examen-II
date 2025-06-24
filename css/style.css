@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belleza&family=Catamaran:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Comic+Relief:wght@400;700&family=Exo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#000;
+	--f7-bars-bg-color:#C71A1A;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #C71A1A; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+
+
+
+.panel-left {
+  background-color: #C71A1A; 
+}
+
+#panel-menu .item-title {
+  color: #EBDEDE; 
+  font-weight: 500;
+}
+
+#panel-menu .item-media i.material-icons {
+  color: #EBDEDE; 
+  font-size: 24px;
+}
+
+#panel-menu a.item-link:active {
+  background-color: #FEABAB; 
+}
+
+#panel-menu .list,
+#panel-menu .list ul,
+#panel-menu .list ul li {
+  background-color: transparent;
+}
+
+#panel-user {
+  padding: 20px;
+  color: #EBDEDE; /* texto claro */
+}
+
+.user-icon {
+  font-size: 80px; /* ícono grande */
+  color: #EBDEDE;
+  margin-bottom: 10px;
+}
+
+.user-links {
+  font-size: 18px;
+}
+
+.user-link {
+  color: #EBDEDE;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.user-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-inner .col-30 img.img-fluid {
+  max-width: 50%; /* Cambia 120px al tamaño que prefieras */
+  height: auto; /* Para mantener la proporción */
+  padding-top: 120px;
+}
+
+.navbar .navbar-inner {
+  height: 80px; /* Igual que la navbar para que el contenido quede centrado */
+  line-height: 80px; /* Para centrar verticalmente texto e íconos si aplica */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
