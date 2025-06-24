@@ -65,10 +65,18 @@
 }
 
 .navbar-inner .col-30 img.img-fluid {
-  max-width: 50%; /* Cambia 120px al tamaño que prefieras */
-  height: auto; /* Para mantener la proporción */
-  padding-top: 120px;
+  max-width: 500px;
+  height: 90px;
+  padding-top: 90px; 
+padding-left: 20px;
 }
+
+.navbar .right i.material-icons {
+  font-size: 28px;
+  line-height: 50px; /* Igual que el alto de la navbar */
+  vertical-align: middle;
+}
+
 
 .navbar .navbar-inner {
   height: 80px; /* Igual que la navbar para que el contenido quede centrado */
@@ -76,20 +84,129 @@
 }
 
 
+#catálogo  nav, #camisas  nav{
+    display: flex;
+    justify-content: center;
+    gap: 24px; /* espacio entre links */
+    background-color: transparent; /* bg-gray-800 */
+    padding: 1rem;
+	font-family: 'Montserrat', san-selfi;
+	font-size: 20px;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #0B62A9;
+  }
+
+nav a.active {
+  color: #2D98BF;
+  text-decoration: none;
+}
 
 
+.auth-container {
+  width: 350px; 
+  height: 450px;; 
+  padding: 50px 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
 
 
+    .auth-container {
+      max-width: 420px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
 
+    /* Sombra para el botón de registro */
+    .button-register {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      border: none;
+    }
 
+    /* Para centrar texto y botones */
+    .auth-container h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #0B62A9;
+    }
 
+    /* Margen entre botones */
+    .auth-container .button + .button {
+      margin-top: 15px;
+    }
 
+    /* Para que el link de "Olvidaste tu contraseña" se vea bien */
+    .forgot-password {
+      display: block;
+      text-align: right;
+      margin: 10px 0 20px 0;
+      color: #0B62A9;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
 
+#banner h2{
+	font-family: 'DM Serif Display', serif;
+	font-size: 45px;
+	margin-bottom: 5px;
+}
 
+#Ofertas h2, #Tendencias h2{
+	font-family: 'DM Serif Display', serif;
+	font-size: 30px;
+	margin-bottom: 5px
+}
 
+#catálogo h2, #camisas h2{
+	font-family: 'DM Serif Display', serif;
+	font-size: 30px;
+	margin-bottom: 5px;
+	color:#C71A1A;	
+}
 
+#banner h6{
+	font-family: 'DM Serif Display', serif;
+	font-size: 20px;
+	margin-top: 0;
+}
 
+#Ofertas h4, #Tendencias h4{
+	font-family: 'DM Serif Display', serif;
+	font-size: 18px;
+	margin-top: 0;
+}
+  
 
+#Ofertas h5, #Tendencias h5{
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	margin-top: 0;
+}
 
+#fila1 h3, #fila2 h3,
+#fila3 h3, #fila4 h3{
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	margin-top: 0;
+}
 
-
+.card {
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
